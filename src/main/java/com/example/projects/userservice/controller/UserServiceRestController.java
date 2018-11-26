@@ -12,6 +12,6 @@ public class UserServiceRestController {
  UserServiceDAO userServiceDAO;
  @RequestMapping(value="/users", method=RequestMethod.GET)
  public List<Users> getUsersList() {
-return userServiceDAO.getUsersList();
+    return userServiceDAO.getUsersList();
  }
 }
